@@ -1,12 +1,9 @@
 class Product
-
-    attr_accessor :price   
-    attr_accessor :quantity   
+  attr_accessor :price, :quantity 
  
-
-    def initialize(price, quantity)
-@price = price
-@quantity = quantity
-    end
+  def initialize(price, quantity)
+    @price = price
+    @quantity = quantity
+  end
 end
 
